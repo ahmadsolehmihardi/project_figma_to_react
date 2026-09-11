@@ -1,12 +1,15 @@
 import { useState } from 'react'
 
 import './App.css'
+import { Homepages } from './pages/Homepages'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='text-6xl text-red-500'>Hallo</div>
+    <div>
+      <Homepages/>
+    </div>
   )
 }
 
